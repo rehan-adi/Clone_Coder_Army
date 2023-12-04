@@ -1,0 +1,33 @@
+@tailwind base;
+@tailwind components;
+.btn{
+    @apply bg-orange-500 mr-2 py-2 font-medium text-white px-6 rounded-md
+}
+@tailwind utilities;
+
+@keyframes slideRightToLeft {
+    0% {
+      transform: translateX(100%);
+    }
+    100% {
+      transform: translateX(0);
+    }
+  }
+  
+  .animation-container {
+    animation: slideRightToLeft 8s infinite ease-in-out;
+  }
+  
+  @keyframes slideLeftToRight {
+    0% {
+      transform: translateX(-100%);
+    }
+    100% {
+      transform: translateX(0);
+    }
+  }
+  
+  .animation-container-right {
+    animation: slideLeftToRight 8s infinite ease-in-out;
+  }
+  
