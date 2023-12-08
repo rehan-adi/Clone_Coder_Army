@@ -18,7 +18,7 @@ function MainSection() {
            <FaYoutube className='text-3xl cursor-pointer text-red-600 hover:text-red-700' />
         </div>
         <div className='mt-8 flex justify-start'>
-            <button className='btn text-black px-4 '>Enroll Now</button>
+            <button className='btn text-black py-3 px-4 '>Enroll Now</button>
             <button className='bg-transparent py-2 px-6 text-black font-medium  border-2 border-[#FF7B00] rounded-md '>Watch Video <FaPhotoVideo className='inline-block ml-2' /> </button>
         </div>
       </div>
