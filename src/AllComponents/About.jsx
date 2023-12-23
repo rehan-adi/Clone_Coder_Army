@@ -2,7 +2,7 @@ import React from 'react'
 
 function About() {
     return (
-        <div className='bg-white h-[75vh] w-auto '>
+        <div id='about' className='bg-white h-[75vh] w-auto '>
             <div className='flex justify-between mt-16 ml-28 max-w-7xl'>
                 <h1 className='text-black font-semibold text-5xl'>Learn from the <span className='text-[#FF8A00] '>Best!</span></h1>
                 <button className='bg-[#FF8A00] mr-2 py-3 font-medium text-lg text-white px-10 rounded-lg  '>Know More</button>
@@ -12,7 +12,7 @@ function About() {
             </div>
             <div className='flex justify-between'>
             <div className='ml-44 mt-14'>
-                <img src="	src/AllComponents/Rehan.jpg" className='rounded-full' width={290} />
+                <img src="	https://www.coderarmy.in/assets/images/rohit_negi.jpeg" className='rounded-full' width={290} />
                 <div className='text-center'>
                 <h1 className='text-black text-3xl mt-3 font-bold'>MD Rehan</h1>
                 <h1 className='text-[#777C85] mt-1 text-2xl font-bold'>Co-Founder, CoderArmy</h1>

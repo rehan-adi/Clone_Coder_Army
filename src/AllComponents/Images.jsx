@@ -3,7 +3,7 @@ import React from 'react'
 
 function Images() {
   return (
-    <div className='h-[80vh] w-auto flex justify-center items-center bg-gradient-to-r mt-6 from-white to-[#f48217]'>
+    <div id='Placements' className='h-[80vh] w-auto flex justify-center items-center bg-gradient-to-r mt-6 from-white to-[#f48217]'>
       <div className='bg-white w-[80vw] shadow-lg shadow-black h-[60vh]  overflow-hidden '>
         <h1 className='text-black text-center font-semibold text-4xl mt-5'>Get a chance to be placed at top PBC's</h1>
         <div className='flex mt-5 items-center justify-center space-x-10 animation-container '>

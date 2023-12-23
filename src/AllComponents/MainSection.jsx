@@ -7,7 +7,7 @@ import { FaPhotoVideo } from "react-icons/fa";
 
 function MainSection() {
   return (
-    <main>
+    <main id='home'>
     <div className="bg-white text-black flex h-screen justify-center pt-[200px] ">
       <div className=" b-32  mr-10 h-ful text-center">
         <h1 className="text-6xl font-bold pt-16 text-blue-950 ">Be a part of our <span className='text-[#FF7B00]'>Army!</span> </h1>

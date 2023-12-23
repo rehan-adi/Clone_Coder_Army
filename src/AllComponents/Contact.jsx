@@ -3,7 +3,7 @@ import React from 'react'
 function Contact() {
   return (
     <div>
-        <div className='flex h-screen bg-white justify-center '>
+        <div id='contact' className='flex h-screen bg-white justify-center '>
             <div className='ml-14'>
                 <h1 className='text-black font-bold text-4xl mt-10 text-center '>Contact Us ! </h1>
                 <input type="text" placeholder='Full Name' className='bg-[#939598] py-3 placeholder-white border-none rounded-lg mt-10 px-8 text-sm' />
